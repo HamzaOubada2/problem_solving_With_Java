@@ -37,12 +37,14 @@ public class LongestCommonPrefix {
                 if (i >= strs[j].length() || strs[j].charAt(i) != c) {
                     /*
                      * # i >= strs[j].length:
-                     * for example we have word have 3 letters,
-                     * and we are reached 4
-                     * !compare imposible!
+                     * we have word (flow) ---> length=4 & indexes=3
+                     * if i = 4 soo the program stoped because we dont have char in index 4 we have just 3
                      *
                      * # strs[j].charAt(i) != c:
                      * here if we find different letter the programm stoped!
+                     * flower
+                     * flow
+                     * soo f == f & l == l & o == o & w == w BUT er isnot in flow
                      */
                     System.out.println(prefix);
                     return;
