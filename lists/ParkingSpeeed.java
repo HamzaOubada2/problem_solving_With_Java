@@ -1,5 +1,17 @@
 public class ParkingSpeeed {
+    public static void main(String[] args) {
+        int[] speedCars = { 90, 130, 110, 145, 100, 125, 80, 200 };
+        int limit = 120;
 
+        int count = 0;
+        for (int j = 0; j < speedCars.length; j++) {
+            if (speedCars[j] > limit) {
+                count++;
+                System.out.println("Speed: " + speedCars[j]);
+            }
+        }
+        System.out.println(count + " cars are speeding!");
+    }
 }
 
 /*
