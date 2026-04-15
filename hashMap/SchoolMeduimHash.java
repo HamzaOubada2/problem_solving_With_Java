@@ -27,3 +27,28 @@ public class SchoolMeduimHash {
         System.out.println("Total Failed: "+totallFaileds);
     }
 }
+
+/* 
+Next Medium problem! 🎯
+
+You work at a school 🏫
+You have a list of students and their grades
+Find all students who failed (grade < 50)
+And print how many failed!
+
+javaInput:
+students = {
+    "Ahmed"   → 78,
+    "Fatima"  → 45,
+    "Youssef" → 32,
+    "Khadija" → 90,
+    "Ali"     → 48
+}
+
+Output:
+Failed students:
+Fatima  → 45
+Youssef → 32
+Ali     → 48
+Total failed: 3
+*/
