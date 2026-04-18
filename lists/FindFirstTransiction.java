@@ -11,3 +11,16 @@ public class FindFirstTransiction {
         }
     }
 }
+
+/*
+ * 
+ * 
+ * You work at a bank
+ * Find the first transaction that exceeds the daily limit
+ * Return its index and value!
+ * 
+ * javaInput: [2000, 5000, 12000, 8000, 15000]
+ * limit = 10000
+ * 
+ * Output: First suspicious transaction at index 2 → 12000
+ */
